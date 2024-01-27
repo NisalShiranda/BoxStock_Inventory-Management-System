@@ -1,35 +1,35 @@
 import Image from "next/image";
 import slogan from "../public/Slogan.png"
+import Navbar from "./(components)/navbar";
+
 
 export default function Home() {
   return (
     <>
-    <div className=" bg-white py-3  min-[860px]:flex min-[860px]:justify-between text-center min-[860px]:items-center md:mx-10 ">
-        <div className="flex justify-center">
-        <Image
-          src={slogan}
-          width={150}
-          height={150}
+    <div><Navbar /></div>
+  
+    <div className=" bg-[#EEEBEB]  ">
+      <div className="md:flex md:flex-row mx-[200px] py-10">
+        <div className="flex flex-col justify-center items-center">
+          <div className="text-6xl font-semibold ">A Smarter Way To Manage Your Inventory.</div>
+          <div className="pt-2">The best inventory software for small businesses to manage 
+                inventory, supplies, and everything else.
+          </div>
+        </div>
+        <div>
+        <Image className=''
+          src="/hero1.png"
+          width={800}
+          height={800}
           alt="Picture of the author"
         />
         </div>
-        <div>
-            <ul className=" justify-center text-center py-3 cursor-pointer  min-[860px]:flex flex-row md:space-x-5">
-                <li className="text-md py-3 hover:text-[#FCA311] duration-300 ">Product Tour</li>
-                <li className="text-md py-3 hover:text-[#FCA311] duration-300">Pricing</li>
-                <li className="text-md py-3 hover:text-[#FCA311] duration-300">Industries</li>
-                <li className="text-md py-3 hover:text-[#FCA311] duration-300">Resources</li>
-                <li className="text-md py-3 hover:text-[#FCA311] duration-300">Home</li>
-            </ul>
-        </div>
 
-        <div>
-            <ul className=" justify-center text-center cursor-pointer min-[860px]:flex flex-row md:space-x-5">
-                <li className="text-md py-3 hover:text-[#FCA311] duration-300">Log In</li>
-                <li className="text-md py-1 flex justify-center"><button className="bg-[#14213D]  text-white p-2 rounded-lg hover:bg-[#FCA311] hover:text-[#14213D]">Try It Free</button></li>
-            </ul>
-        </div>
+      </div>
+
     </div>
+    
+    
     
     
     
