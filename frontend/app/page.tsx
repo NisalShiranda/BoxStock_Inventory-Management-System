@@ -76,7 +76,7 @@ export default function Home() {
     </div>
 
   {/* Step 02 Section */}
-  <div className="mx-5 py-5 md:mx-36 lg:flex lg:flex-row">
+  <div className="mx-5 py-5 md:mx-36 flex flex-col-reverse lg:flex lg:flex-row">
       {/* step 02 word section */}
       <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-center">
         <div>
@@ -90,11 +90,11 @@ export default function Home() {
 
       {/* step 02 image section */}
       <div className="flex justify-center items-center lg:w-[50%]">
-      <Image className='pt-1 w-[80%]'
-          src="/step1.png"
-          width={10000}
-          height={10000}
-          alt="Picture of the author"
+      <Image className='pt-1 w-[60%]'
+          src="/step2.png"
+          width={1000}
+          height={1000}
+          alt="Picture"
         />
       </div>
       
@@ -105,7 +105,12 @@ export default function Home() {
       {/* step 01 word section */}
 
       <div className="flex justify-center items-center lg:w-[50%]">
-        <img className="w-[50%]"src="hero1.png"></img>
+      <Image className='pt-1 w-[60%]'
+          src= "/step3.png"
+          width={1000}
+          height={1000}
+          alt="Picture"
+        />
       </div>
 
       {/* step 01 image section */}
@@ -123,7 +128,7 @@ export default function Home() {
 
     {/* Step 04 Section */}
 
-    <div className="mx-5 py-5 md:mx-36 lg:flex lg:flex-row">
+    <div className="mx-5 py-5 md:mx-36 flex flex-col-reverse lg:flex lg:flex-row">
       {/* step 02 word section */}
       <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-center">
         <div>
@@ -137,7 +142,12 @@ export default function Home() {
 
       {/* step 02 image section */}
       <div className="flex justify-center items-center lg:w-[50%]">
-        <img className="w-[50%]"src="hero1.png"></img>
+      <Image className='pt-1 w-[60%]'
+          src= "/step4.png"
+          width={1000}
+          height={1000}
+          alt="Picture"
+        />
       </div>
       
     </div>
@@ -149,24 +159,163 @@ export default function Home() {
     <div className="bg-[#EEEBEB]">
       <div className="mx-5 py-10 md:mx-36">
         <div>
-          <p className="text-center text-4xl font-semibold">BoxStock Features</p>
+          <p className="text-center text-4xl font-semibold pt-5">BoxStock Features</p>
         </div>
       </div>
 
-      <div className=" mx-5 py-5 md:mx-36 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 ">
+      <div className=" mx-5 py-5 justify-items-center md:mx-36 grid grid-cols-1 gap-8 sm:grid-cols-2 lg:grid-cols-4 pb-20">
 
-        <div>
-          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center text-center">
-            <img src="/file4.png"></img>
-            </div>
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file1.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl h-55">
+            <p className="pt-2 text-center font-semibold">Easy Inventory Import</p>
+            <p className="pt-2 text-center text-sm font-thin">
+                Easy inventory import transfers your existing inventory into BoxStock with the touch of        a button.
+            </p>
+          </div>
         </div>
-        <div className="bg-blue-500">2</div>
-        <div className="bg-blue-500">3</div>
-        <div className="bg-blue-500">4</div>
-        <div className="bg-blue-500">5</div>
-        <div className="bg-blue-500">6</div>
-        <div className="bg-blue-500">7</div>
-        <div className="bg-blue-500">8</div>
+
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file2.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl h-55">
+            <p className="pt-2 text-center font-semibold">Items</p>
+            <p className="pt-2 text-center text-sm font-thin">
+            Enter your items and 
+              track key details about 
+              them, such as quantity, location, and cost. 
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file3.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl">
+            <p className="pt-2 text-center font-semibold">Item Photos</p>
+            <p className="pt-2 text-center text-sm font-thin">
+            Add item photos to your entries to create a visual inventory and track appearance and condition details.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file4.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl">
+            <p className="pt-2 text-center font-semibold">Custom Folders</p>
+            <p className="pt-2 text-center text-sm font-thin">
+            Custom folders so you can organize your stuff exactly how you want it.
+            BoxStock help any type odf folder.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file5.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl">
+            <p className="pt-2 text-center font-semibold">Custom Fields</p>
+            <p className="pt-2 text-center text-sm font-thin">
+                you can track the unique 
+                details that 
+                matter to you
+                and custom-segment your items.
+                BoxStock do it eassily
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file6.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl">
+            <p className="pt-2 text-center font-semibold">Inventory Lists</p>
+            <p className="pt-2 text-center text-sm font-thin">
+            Inventory lists perfect for audits, budgeting, or forecasting. Updating, deleting removing inventories.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file7.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl">
+            <p className="pt-2 text-center font-semibold">User Licenses</p>
+            <p className="pt-2 text-center text-sm font-thin">
+                User licenses so you can collaborate with your team and even your clients. User Based system.
+            </p>
+          </div>
+        </div>
+
+        <div className="flex flex-col justify-center items-center">
+          <div className="bg-[#FCA311] rounded-full w-20 h-20 flex justify-center items-center">
+            
+              <Image className='w-[60%] flex justify-center items-center'
+              src= "/file8.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+          </div>
+          <div className="bg-white p-5 mt-5 rounded-xl">
+            <p className="pt-2 text-center font-semibold">Cuztomizable User Access</p>
+            <p className="pt-2 text-center text-sm font-thin">
+            Customizable user access ensures you share the right info with the right people. Customize any fields.
+            </p>
+          </div>
+        </div>
+
         
 
 
@@ -175,6 +324,112 @@ export default function Home() {
 
 
     </div>
+
+    <div className="mx-5 py-10 md:mx-36">
+
+      <div className="py-20">
+        <div>
+        <p className="text-center text-4xl font-semibold">
+          Experience the simplest inventory management software.
+        </p>
+        <p className="text-center pt-4 font-light text-sm text-[#9A9898]">Built to streamline and modernize every aspect of managing inventory.</p>
+        </div>
+
+       <div className="grid justify-items-center grid-cols-2 gap-2 pt-8 ">
+        <div>
+        <button className="bg-[#14213D]  text-white py-3 px-6 rounded-2xl sm:px-16 lg:px-36 xl:px-52 hover:bg-[#FCA311] hover:text-[#14213D] text-sm">Start A Free Trial</button>
+        </div>
+
+        <div>
+        <button className=" outline outline-[#14213D]text-white py-3 px-6 sm:px-16 lg:px-36 xl:px-52 rounded-2xl hover:bg-[#FCA311] hover:text-[#14213D] text-sm">See All Plans</button>
+        </div>
+
+       </div>
+        
+      </div>
+
+
+    </div>
+
+    <div className="bg-[#EEEBEB]">
+      <div className="mx-5 py-10">
+        <div className="grid grid-cols-1 gap-4 sm:grid-cols-4 justify-items-center">
+          <div>
+            <div className="flex justify-center items-center">
+            <Image className='w-20 flex justify-center items-center'
+              src= "/BoxStock.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              />
+            </div>
+            <div className="grid grid-cols-2 gap-4 pt-10">
+              <div className="flex justify-center items-center"><Image className='w-10 flex justify-center items-center'
+              src= "/fb.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              /></div>
+              <div className="flex justify-center items-center"><Image className='w-10 flex justify-center items-center'
+              src= "/in.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              /></div>
+              <div className="flex justify-center items-center"><Image className='w-10 flex justify-center items-center'
+              src= "/yt.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              /></div>
+              <div className="flex justify-center items-center"><Image className='w-10 flex justify-center items-center'
+              src= "/tw.png"
+              width={1000}
+              height={1000}
+              alt="Picture"
+              /></div>
+            </div>
+          </div>
+
+          <div className="">
+            <p className="text-center font-bold">Pricing</p>
+            <div className="pt-5 text-center text-sm">
+              <p className="pt-2">Free</p>
+              <p className="pt-2">Advanced</p>
+              <p className="pt-2">Ultra</p>
+              <p className="pt-2">Customize</p>
+            </div>
+          </div>
+
+          <div>
+          <p className="text-center font-bold">Industries</p>
+            <div className="pt-5 text-center text-sm">
+              <p className="pt-2">Construction</p>
+              <p className="pt-2">Medical</p>
+              <p className="pt-2">Warehouse</p>
+              <p className="pt-2">Other...</p>
+            </div>
+          </div>
+
+
+          <div>
+          <p className="text-center font-bold">Resources</p>
+            <div className="pt-5 text-center text-sm">
+              <p className="pt-2">Blogs</p>
+              <p className="pt-2">About Us</p>
+              <p className="pt-2">Contact Us</p>
+              
+            </div>
+
+          </div>
+        </div>
+        <p className="pt-10 text-center text-sm font-mono">©2024 BoxStock Inc. All rights reserved. All other logos and trademarks are the property of their respective owners.</p>
+      </div>
+      
+    </div>
+
+    
+      
 
 
 
