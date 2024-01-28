@@ -46,29 +46,47 @@ export default function Home() {
     </div>
 
     {/* Step 01 Section */}
-    <div className="mx-5 py-5 md:mx-36">
+    <div className="mx-5 py-5 md:mx-36 lg:flex lg:flex-row">
       {/* step 01 word section */}
-      <div>
-        <div><p className="text-center text-xl font-semibold">Step 01</p></div>
-        <div>
-          <p className="text-center text-3xl font-semibold pt-5">Configure <span className="text-[#FCA311]">BoxStock</span> for your business.</p>
-          <p className="text-center pt-3">Easily import your existing inventory and track all the item details that matter to you to create a full visual inventory system—with just a few clicks.</p>
 
-
-        </div>
-
-
+      <div className="flex justify-center items-center lg:w-[50%]">
+        <img className="w-[50%]"src="hero1.png"></img>
       </div>
-
-
-
 
       {/* step 01 image section */}
-      <div>
-        <img src="/step1.png" alt="step1" width="50%"></img>
+      <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-center">
+        <div>
+          <p className="text-center text-xl font-semibold pt-5">Step 01</p>
+          </div>
+        <div>
+          <p className="text-center text-3xl font-semibold pt-5 lg:text-right">Configure <span className="text-[#FCA311]">BoxStock</span> for your business.</p>
+          <p className="text-center pt-3 lg:text-right">Easily import your existing inventory and track all the item details that matter to you to create a full visual inventory system—with just a few clicks.</p>
+        </div>
+      </div>
+    </div>
+
+  {/* Step 02 Section */}
+  <div className="mx-5 py-5 md:mx-36 lg:flex lg:flex-row">
+      {/* step 01 word section */}
+      <div className="lg:w-[50%] lg:flex lg:flex-col lg:justify-center lg:items-center">
+        <div>
+          <p className="text-center text-xl font-semibold pt-5">Step 02</p>
+          </div>
+        <div>
+          <p className="text-center text-3xl font-semibold pt-5 lg:text-left">Manage Your <span className="text-[#FCA311]">Business’s</span> Inventory, Assets, Parts, and more.</p>
+          <p className="text-center pt-3 lg:text-left">Add new items, update locations and quantities and set low stock alerts to remind you to re-order.</p>
+        </div>
       </div>
 
+      {/* step 01 image section */}
+      <div className="flex justify-center items-center lg:w-[50%]">
+        <img className="w-[50%]"src="hero1.png"></img>
+      </div>
+      
     </div>
+
+
+
   
     
   
