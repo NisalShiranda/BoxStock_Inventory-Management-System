@@ -37,7 +37,7 @@ function Navbar() {
 
                 </li>
                 <li className="text-sm py-1 flex justify-center"><button className="bg-[#14213D]  text-white p-2 rounded-lg hover:bg-[#FCA311] hover:text-[#14213D]">
-                <Link href="/SignUp">Try It Free</Link>
+                Try It Free
                 </button></li>
             </ul>
         </div>

@@ -3,6 +3,7 @@ import logo from '../BoxStock.png';
 import line from '../Line 1.png'
 import google from '../google.png'
 import ios from '../ios.png'
+import Link from 'next/link';
 
 
 
@@ -70,7 +71,7 @@ const Login = () => {
 
         <div className="bottom flex">
             <h3>First time on BoxStock?</h3>
-            <a href=''>Sign Up</a>
+            <Link href="/SignUp">Sign Up</Link>
         </div>
       </form>
     </div>
