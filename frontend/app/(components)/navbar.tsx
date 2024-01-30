@@ -1,7 +1,7 @@
 'use client'
 import React from 'react'
 import Image from 'next/image'
-
+import Link from 'next/link'
 
 
 
@@ -31,8 +31,14 @@ function Navbar() {
 
         <div>
             <ul className=" justify-center text-center cursor-pointer min-[860px]:flex flex-row md:space-x-5">
-                <li className="text-sm pt-3 flex justify-center hover:text-[#FCA311] duration-300">Log In</li>
-                <li className="text-sm py-1 flex justify-center"><button className="bg-[#14213D]  text-white p-2 rounded-lg hover:bg-[#FCA311] hover:text-[#14213D]">Try It Free</button></li>
+                <li className="text-sm pt-3 flex justify-center hover:text-[#FCA311] duration-300">
+                  
+                  <Link href="/Login">Log In</Link>
+
+                </li>
+                <li className="text-sm py-1 flex justify-center"><button className="bg-[#14213D]  text-white p-2 rounded-lg hover:bg-[#FCA311] hover:text-[#14213D]">
+                Try It Free
+                </button></li>
             </ul>
         </div>
     </div>
