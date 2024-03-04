@@ -37,7 +37,7 @@ const Login = () => {
 
                   <div className="flex flex-col items-center pl-5 m-3">
                     <div className="w-[400px] flex border border-black rounded-[15px] bg-white pl-4">
-                      <p className="text-[14px]  text-black p-1 m-3"> Access and manage your instances from this BoxStock account.</p>
+                    <p className="text-[16px]  text-black p-1 m-1"> Access and manage your instances from <br/> <span className="pl-20"> this BoxStock account.</span></p>
                     </div>
                   </div>
                   
