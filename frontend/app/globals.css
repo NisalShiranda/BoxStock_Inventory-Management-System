@@ -10,3 +10,50 @@
     
 
 }
+bg-image1 {
+    background-image: url('./I1.png'); /* Path to your image in the public folder */
+    background-size: cover;
+    background-position: center;
+    
+  }
+  .bg-image1 {
+      background-image: url('./I1.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }.bg-image2 {
+      background-image: url('./I2.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }.bg-image3 {
+      background-image: url('./I3.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }.bg-image4 {
+      background-image: url('./I4.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }.bg-image5 {
+      background-image: url('./I5.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }.bg-image6 {
+      background-image: url('./I6.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }.bg-image7 {
+      background-image: url('./I7.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }.bg-image8 {
+      background-image: url('./I8.png'); /* Path to your image in the public folder */
+      background-size: cover;
+      background-position: center;
+      
+    }
