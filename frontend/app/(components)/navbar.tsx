@@ -22,7 +22,7 @@ function Navbar() {
         <div>
             <ul className=" justify-center text-center py-1 cursor-pointer  min-[860px]:flex flex-row md:space-x-5">
                 <li className="text-sm py-1 hover:text-[#FCA311] duration-300  "><Link href={"/"}>Product Tour</Link>Tour</li>
-                <li className="text-sm py-1 hover:text-[#FCA311] duration-300"><Link href={"/"}>Pricing</Link></li>
+                <li className="text-sm py-1 hover:text-[#FCA311] duration-300"><Link href={"/PricingPage"}>Pricing</Link></li>
                 <li className="text-sm py-1 hover:text-[#FCA311] duration-300"><Link href={"/IndustryPage"}>Industries</Link></li>
                 <li className="text-sm py-1 hover:text-[#FCA311] duration-300"><Link href={"/ResourcePage"}>Resources</Link></li>
                 <li className="text-sm py-1 hover:text-[#FCA311] duration-300"><Link href={"/"}>Home</Link></li>
