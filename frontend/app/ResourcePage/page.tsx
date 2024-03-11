@@ -28,7 +28,7 @@ export default function page() {
                                 alt="Picture"
                                     />
                 </div>
-        <div className="my-3 font-semibold text-xl lg:text-2xl hover:underline decoration-blue-400 "><Link href="/"><p className="max-w-96 " >How to Create a Purchase Order</p></Link></div>
+        <div className="my-3 font-semibold text-xl lg:text-2xl hover:underline decoration-blue-400 "><Link href="/ResourcePage1"><p className="max-w-96 " >How to Create a Purchase Order</p></Link></div>
         <div className="mb-2"><button className="bg-blue-900 rounded-2xl px-5 py-2 text-white font-semibold hover:border-2 hover:border-blue-300  hover:underline ">New</button></div>
         <div className="text-gray-500 text-sm items-center">
         
@@ -48,7 +48,7 @@ export default function page() {
                                 alt="Picture"
                                     />
                 </div>
-            <div className="my-3 font-semibold text-xl lg:text-2xl hover:underline decoration-blue-400 "><Link href="/"><p className="max-w-96 " >How to Keep Track of Equipment Maintenance</p></Link></div>
+            <div className="my-3 font-semibold text-xl lg:text-2xl hover:underline decoration-blue-400 "><Link href="/ResourcePage2"><p className="max-w-96 " >How to Keep Track of Equipment Maintenance</p></Link></div>
             <div className="mb-2"><button className="bg-blue-900 rounded-2xl px-5 py-2 text-white font-semibold hover:border-2 hover:border-blue-300  hover:underline ">New</button></div>
              <div className="text-gray-500 text-sm items-center">
         
@@ -66,7 +66,7 @@ export default function page() {
                                 alt="Picture"
                                     />
                 </div>
-            <div className="my-3 font-semibold text-xl lg:text-2xl hover:underline decoration-blue-400 "><Link href="/"><p className="max-w-96 " >How to Calculate Raw Materials Inventory</p></Link></div>
+            <div className="my-3 font-semibold text-xl lg:text-2xl hover:underline decoration-blue-400 "><Link href="/ResourcePage3"><p className="max-w-96 " >How to Calculate Raw Materials Inventory</p></Link></div>
             <div className="mb-2"><button className="bg-blue-900 rounded-2xl px-5 py-2 text-white font-semibold hover:border-2 hover:border-blue-300 hover:underline ">New</button></div>
             <div className="text-gray-500 text-sm items-center">
                  January 24,2024 . 5 Min Read
@@ -83,7 +83,7 @@ export default function page() {
                 </div>
 
     
-            <div className="my-3 font-semibold text-xl lg:text-2xl  hover:underline decoration-blue-400 "><Link href="/"><p className="max-w-96 " >How To Liquidate Excess Inventory</p></Link></div>
+            <div className="my-3 font-semibold text-xl lg:text-2xl  hover:underline decoration-blue-400 "><Link href="/ResourcePage4"><p className="max-w-96 " >How To Liquidate Excess Inventory</p></Link></div>
             <div className="mb-2"><button className="bg-blue-900 rounded-2xl px-5 py-2 text-white font-semibold hover:border-2 hover:border-blue-300  hover:underline ">New</button></div>
             <div className="text-gray-500 text-sm items-center">
         

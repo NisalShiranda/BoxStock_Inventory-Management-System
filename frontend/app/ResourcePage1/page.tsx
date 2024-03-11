@@ -64,7 +64,7 @@ export default function page() {
  </div>
 
  </div>
- <div className="text-right my-7 text-gray-500 hover:text-orange-500 hover:font-semibold"><Link href='/'>Previous Page</Link></div>
+ <div className="text-right my-7 text-gray-500 hover:text-orange-500 hover:font-semibold"><Link href='/ResourcePage'>Previous Page</Link></div>
   </div>
   </div>
         <div><Footer/></div>
